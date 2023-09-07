@@ -1,10 +1,12 @@
 import './App.css';
+import FormSignUp from './components/FormSignUp';
 
 function App() {
   return (
-    <div>
-      
-    </div>
+    <>
+    <h1>Formulario de Registro</h1>
+     <FormSignUp />
+    </>
   );
 }
 
